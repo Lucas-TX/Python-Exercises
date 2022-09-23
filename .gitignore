@@ -1,2 +1,4 @@
-#Exclui notas genéricas dos cursos
+#Ignora notas genéricas dos cursos
 Python Notes.docx
+#Ignora o diretótio de bibliografias
+Bibliografia/
