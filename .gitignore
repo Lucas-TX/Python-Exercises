@@ -2,3 +2,6 @@
 Python Notes.docx
 #Ignora o diretótio de bibliografias
 Bibliografia/
+#Ignora pasta do vitual enviroment
+env/
+
