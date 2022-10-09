@@ -1,7 +1,7 @@
 # Pratice Python Projects
 > This repository objetivo deste repositório é armazenar projetos usados para aprender Python.
 
-_Read this on other languages: [Brazilian Portuguese][ptBR]_
+_Read this on other languages: [Brazilian Portuguese][pt-BR]_
 ## Histórico de lançamentos
 
 * 0.0.1
