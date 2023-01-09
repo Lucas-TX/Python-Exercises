@@ -4,4 +4,5 @@ Python Notes.pdf
 Bibliografia/
 #Ignora pasta do vitual enviroment
 env/
-
+#Ignora pasta .idea
+.idea/
