@@ -1,5 +1,0 @@
-print('Exercício 8: Calcular Salário baseado nas horas trabalhadas e o valor por hora')
-salarioPorHora = input('Qual é o seu valor por hora?\n')
-horasTrabalhadas = input('Quantas horas foram trabalhadas:\n')
-salarioTotal = int(salarioPorHora) * int(horasTrabalhadas)
-print('O salário total é ', salarioTotal)
