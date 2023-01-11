@@ -33,9 +33,9 @@ int_quantidadeLatasTinta = int(float_quantidadeLitrosTinta / 18)
 float_restoDivisaoQuantidadeLatasTinta = float_quantidadeLitrosTinta % 18
 
 if float_restoDivisaoQuantidadeLatasTinta == 0:
-    print('Para minimizar o disperdício, deve-se comprar ', int_quantidadeLatasTinta, ' latas de tinta')
+    print('Para minimizar o disperdício, deve-se comprar ', int_quantidadeLatasTinta, ' lata(s) de tinta')
 elif float_restoDivisaoQuantidadeLatasTinta > 16.2:
-    print('Para minimizar o disperdício, deve-se comprar ', int_quantidadeLatasTinta + 1, ' latas de tinta')
+    print('Para minimizar o disperdício, deve-se comprar ', int_quantidadeLatasTinta + 1, ' lata(s) de tinta')
 else:  # O resto da divisão estará entre 0 e 16.2
     float_quantidadeLitrosTinta = float_restoDivisaoQuantidadeLatasTinta
     int_quantidadeGalaoTinta = int(float_quantidadeLitrosTinta / 3.6)
