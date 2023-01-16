@@ -1,4 +1,4 @@
-print('Exercício 13: Triângulo')
+print('Exercício 15: Triângulo')
 lado1 = float(input('Insira o primeiro lado do triângulo:\n'))
 lado2 = float(input('Insira o segundo lado do triângulo:\n'))
 lado3 = float(input('Insira o terceiro lado do triângulo:\n'))

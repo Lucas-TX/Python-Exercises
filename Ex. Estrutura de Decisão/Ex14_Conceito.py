@@ -1,4 +1,4 @@
-print('Exercício 13: Conceito')
+print('Exercício 14: Conceito')
 nota1 = float(input('Insira a primeira nota parcial:\n'))
 nota2 = float(input('Insira a segunda nota parcial:\n'))
 media = (nota1 + nota2)/2
