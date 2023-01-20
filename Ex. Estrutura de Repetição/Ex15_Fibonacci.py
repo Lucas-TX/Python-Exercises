@@ -1,10 +1,25 @@
 print('Exercício 15,16 e 17')
 
-f1 = 1
-f2 = 1
+ultimo = 1
+penunultimo = 1
 
-termo_limite = int(input('Insira'))
+termo_limite = int(input('Insira o termo desejado:\n'))
 
-for i in range(1,limite + 1):
+if termo_limite == 1:
+    print('Soma: 1')
+    print('Termo: 1')
+    exit()
+if termo_limite == 2:
+    print('Soma: 2')
+    print('Termo: 2')
+    exit()
 
-    resultado = f1 + f2
+for termo in range(2,termo_limite ):
+    resultado = ultimo + penunultimo
+    penunultimo = ultimo
+    ultimo = resultado
+    termo += 1
+
+print(f'Soma: {resultado}')
+print(f'Termo: {termo}')
+
