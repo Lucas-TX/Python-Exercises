@@ -2,6 +2,8 @@ print('Exercício 15,16 e 17')
 
 ultimo = 1
 penunultimo = 1
+resultado = 0
+termo = 0
 
 termo_limite = int(input('Insira o termo desejado:\n'))
 
@@ -14,7 +16,7 @@ if termo_limite == 2:
     print('Termo: 2')
     exit()
 
-for termo in range(2,termo_limite ):
+for termo in range(2, termo_limite):
     resultado = ultimo + penunultimo
     penunultimo = ultimo
     ultimo = resultado
