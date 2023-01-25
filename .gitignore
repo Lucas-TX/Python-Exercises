@@ -1,8 +1,6 @@
-#Ignora notas genéricas dos cursos
-Python Notes.pdf
 #Ignora o diretótio de bibliografias
 Bibliografia/
 #Ignora pasta do vitual enviroment
-env/
+venv/
 #Ignora pasta .idea
 .idea/
